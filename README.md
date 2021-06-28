@@ -9,4 +9,7 @@ Harris Corner Detection has the following steps-
 * Step3 : After applying a threshold, important corners are selected.
 * Step4 : Non-Max supression is applied to select and mark final set of points. 
 
-First, Gray scale image is obtained. 
+First, Gray scale image is obtained. Then a Gaussian Filter is applied to the image to remove noise. Gaussian Filter of sigma=1 and mean=0 is used. Thereafter Gradients were calculated in X and Y direction. To compute the Gradients, Sobel Filter was used. Sobel Filters for X and Y direction are shown-
+
+
+
